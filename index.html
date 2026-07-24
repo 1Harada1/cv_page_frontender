@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/logo.png" alt="Picture of logo" class="logopicture">
+        <h1 class="header__title">Dmytro CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h3>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list: </summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JavaScript</li>
+                    <li>4. React</li>
+                    <li>5. Node.js</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="articleclass">
+            <h4>Short article about my experience.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab, sit tempora, temporibus nulla obcaecati rem iusto blanditiis facere consequuntur perferendis voluptatibus corporis voluptas quia maxime eligendi tenetur, incidunt consequatur perspiciatis sunt iure accusamus! Perferendis, veniam blanditiis sed modi atque voluptatum temporibus quasi non, porro numquam ea alias aperiam nesciunt.</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/-3fcwda1U8k" title="Most Beautiful of 4K Videos in Dolby Vision 4K HDR 60fps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies: </h4>
+            <details>
+                <summary>Hobbies</summary>
+                <ol>
+                    <li>Medicine</li>
+                    <li>Tennis</li>
+                    <li>Riding</li>
+                </ol>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="education">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>School #23</td>
+                        <td>None</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>PSMU</td>
+                        <td>Doctor</td>
+                        <td>2028</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Practice makes perfect
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://google.com" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <div>
+                        <label for="firstNameId">First name: </label>    
+                        <input type="text" name="firstName" id="firstNameId" class="form__control" placeholder="First name" required>
+                    </div>
+
+                    <div>
+                        <label for="lastNameId">Last name: </label>    
+                        <input type="text" name="lastName" id="lastNameId" class="form__control" placeholder="Last name" required>
+                    </div>
+
+                    <div>
+                        <label for="emeilId">Email: </label>
+                        <input type="email"  name="email" id="emailId" class="form__control" placeholder="Your email" required>
+                    </div>                    
+                    
+                </fieldset>
+                <br>
+                <textarea name="questions" id="" cols="30" rows="7" class="form__control control_text" placeholder="Type your questions"></textarea>
+                <br>
+                <button type="submit" class="formSubmit">Submit</button>
+
+            </form>
+        </section>
+
+
+        </section>
+
+    </main>
+
+    <hr class="separator">
+
+    <footer>
+        <address>
+            <a href="mailto:crafterav5@gmail.com" class="contacts_link">crafterav5@gmail.com</a>
+            <br><br>
+            <a href="tel:+380664328256" class="contacts_link">+380 66 432 82 56</a>
+        </address>
+    </footer>
+</body>
+
+</html>
